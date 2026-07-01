@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Volume Controller",
+  "version": "1.0",
+  "description": "Control volume for media in different browser tabs.",
+  "permissions": ["tabs", "scripting", "activeTab"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
